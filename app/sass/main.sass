@@ -1,0 +1,92 @@
+nav ul a, nav .brand-logo
+  color: #444
+  height: 80%
+
+p 
+  line-height: 2rem
+
+#animation-1
+  padding-top: 90px
+
+
+.button-collapse
+  color: #125CFF
+
+.parallax-container 
+  min-height: 380px
+  line-height: 0
+  height: auto
+  color: rgba(255,255,255,.9)
+
+.parallax-container .section
+  width: 100%
+
+.icon-block 
+  padding: 0 15px
+
+.icon-block .material-icons
+  font-size: inherit
+
+footer.page-footer
+  margin: 0
+
+.item-1
+  margin: 0px
+
+.logotype 
+  width: 70%
+
+.animated 
+  -webkit-animation-duration: 1.5s
+  animation-duration: 1.5s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+#gmap_canvas
+  height: 230px
+  width: 470px
+
+#gmap_canvas img
+  max-width:none!important   
+  background:none!important
+
+#google_Map
+  overflow: hidden  
+  @extend #gmap_canvas
+
+.zoomIn 
+  -webkit-animation-name: zoomIn
+  animation-name: zoomIn
+
+.fixed-action-btn
+  bottom: 110px 
+  right: 60px  
+
+#back-top
+  bottom: 45px
+  right: 60px
+
+div>.btn
+  margin-left: 15px
+
+
+@keyframes zoomIn 
+  0%
+    opacity: .5
+    -ms-transform: scale(.5)
+    transform: scale(.5)
+  50% 
+    opacity: .8
+  100% 
+    opacity: 1
+
+@-webkit-keyframes zoomIn
+  0%
+    opacity: .5
+    -webkit-transform: scale(.5)
+    transform: scale(.5)
+  50%
+    opacity: .8
+  100%
+    opacity: 1
+
