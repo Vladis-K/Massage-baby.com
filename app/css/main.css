@@ -1,5 +1,5 @@
 nav ul a, nav .brand-logo {
-  color: #444;
+  color: #444444;
   height: 80%; }
 
 p {
@@ -30,7 +30,7 @@ footer.page-footer {
   margin: 0; }
 
 .item-1 {
-  margin: 0px; }
+  margin: 0; }
 
 .logotype {
   width: 70%; }
@@ -41,16 +41,8 @@ footer.page-footer {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-#gmap_canvas, #google_Map {
-  height: 230px;
-  width: 470px; }
-
-#gmap_canvas img, #google_Map img {
-  max-width: none !important;
-  background: none !important; }
-
-#google_Map {
-  overflow: hidden; }
+.card-content i.material-icons {
+  margin-top: 12px; }
 
 .zoomIn {
   -webkit-animation-name: zoomIn;
@@ -87,3 +79,13 @@ div > .btn {
     opacity: .8; }
   100% {
     opacity: 1; } }
+
+#web4evo div.container a {
+  font-weight: 400;
+  color: #000000; }
+
+#web4evo div.container span {
+  color: #d1d1d1; }
+
+#web4evo div.container span span {
+  color: #ff0000; }
