@@ -2,14 +2,17 @@ nav ul a, nav .brand-logo
   color: #444444
   height: 80%
 
+h1
+  font-size: 40px
+
 p 
   line-height: 2rem
 
-#animation-1
+#mainSign
   padding-top: 90px
 
 .button-collapse
-  color: #125CFF
+  color: #60D813
 
 .parallax-container 
   min-height: 380px
@@ -25,6 +28,7 @@ p
 
 .icon-block .material-icons
   font-size: inherit
+  color: #60D813
 
 footer.page-footer
   margin: 0
@@ -32,30 +36,30 @@ footer.page-footer
 .item-1
   margin: 0
 
-.logotype 
+.logotype
   width: 70%
 
 .animated
   animation-duration: 1.5s
   animation-fill-mode: both
 
+.zoomIn
+  animation-name: zoomIn
+
 .card-content i.material-icons
   margin-top: 12px
 
-//#gmap_canvas
-//  height: 230px
-//  width: 470px
-//
-//#gmap_canvas img
-//  max-width: none
-//  background: none
-//
-//#google_Map
-//  overflow: hidden
-//  @extend #gmap_canvas
+#gmap_canvas
+  height: 230px
+  max-width: 600px
 
-.zoomIn
-  animation-name: zoomIn
+#gmap_canvas img
+  max-width: none
+  background: none
+
+#google_Map
+  overflow: hidden
+  @extend #gmap_canvas
 
 .fixed-action-btn
   bottom: 110px 
@@ -72,7 +76,6 @@ div>.btn
 @keyframes zoomIn 
   0%
     opacity: .5
-    -ms-transform: scale(.5)
     transform: scale(.5)
   50% 
     opacity: .8
@@ -82,7 +85,6 @@ div>.btn
 @-webkit-keyframes zoomIn
   0%
     opacity: .5
-    -webkit-transform: scale(.5)
     transform: scale(.5)
   50%
     opacity: .8

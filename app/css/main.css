@@ -2,14 +2,17 @@ nav ul a, nav .brand-logo {
   color: #444444;
   height: 80%; }
 
+h1 {
+  font-size: 40px; }
+
 p {
   line-height: 2rem; }
 
-#animation-1 {
+#mainSign {
   padding-top: 90px; }
 
 .button-collapse {
-  color: #125CFF; }
+  color: #60D813; }
 
 .parallax-container {
   min-height: 380px;
@@ -24,7 +27,8 @@ p {
   padding: 0 15px; }
 
 .icon-block .material-icons {
-  font-size: inherit; }
+  font-size: inherit;
+  color: #60D813; }
 
 footer.page-footer {
   margin: 0; }
@@ -41,12 +45,23 @@ footer.page-footer {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.card-content i.material-icons {
-  margin-top: 12px; }
-
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
+
+.card-content i.material-icons {
+  margin-top: 12px; }
+
+#gmap_canvas, #google_Map {
+  height: 230px;
+  max-width: 600px; }
+
+#gmap_canvas img, #google_Map img {
+  max-width: none;
+  background: none; }
+
+#google_Map {
+  overflow: hidden; }
 
 .fixed-action-btn {
   bottom: 110px;
@@ -62,7 +77,6 @@ div > .btn {
 @keyframes zoomIn {
   0% {
     opacity: .5;
-    -ms-transform: scale(0.5);
     -webkit-transform: scale(0.5);
     transform: scale(0.5); }
   50% {

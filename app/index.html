@@ -29,23 +29,23 @@
       <a id="logo-container" class="brand-logo"><img src="img/logo_1.png" class="logotype"></a>
       <ul class="right hide-on-med-and-down">
         <li>
-            <a href="#item-1" class="white-text">Виды массажа</a>
+            <a href="#item-1" class="white-text switch">Виды массажа</a>
         </li>
         <li>
-          <a href="#item-2" class="white-text">Услуги</a>
+          <a href="#item-2" class="white-text switch">Услуги</a>
         </li>
         <li>
-          <a href="#item-3" class="white-text">Отзывы</a>
+          <a href="#item-3" class="white-text switch">Отзывы</a>
         </li>
         <li>
-          <a href="#item-4" class="white-text">Контакты</a>
+          <a href="#item-4" class="white-text switch">Контакты</a>
         </li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#item-1">Виды массажа</a></li>
-        <li><a href="#item-2">Услуги</a></li>
-        <li><a href="#item-3">Отзывы</a></li>
-        <li><a href="#item-4">Контакты</a></li>
+        <li><a href="#item-1" class="switch">Виды массажа</a></li>
+        <li><a href="#item-2" class="switch">Услуги</a></li>
+        <li><a href="#item-3" class="switch">Отзывы</a></li>
+        <li><a href="#item-4" class="switch">Контакты</a></li>
       </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse">
          <i class="material-icons">menu
@@ -57,9 +57,9 @@
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <h4 id="animation-1" class="header center-align purple-text text-darken-3">
-          <p>Массаж для грудничков и деток</p>      
-        </h4>
+        <div id="mainSign" class="header center-align purple-text text-darken-3">
+          <h1>Массаж для грудничков и деток</h1>
+        </div>
       </div>
     </div>
     <div class="parallax"><img src="img/background1.png" alt="Background_1"></div>
@@ -89,7 +89,7 @@
           </p>
         </div>
        </section>
-       <section>      
+       <section>
         <div class="col s12 m4 card-panel hoverable">
             <p class="center brown-text"><img src="img/icon_02.png"></p>
             <h5 class="center">Фитбол и плаванье</h5>
@@ -99,7 +99,7 @@
                 для укрепления мышц у здоровых малышей, и для лечения деток, имеющих проблемы со здоровьем. </p>
         </div>
        </section>
-      </div>                                      
+      </div>
     </div>
   </div>
 <!-- Second part -->
@@ -134,7 +134,6 @@
               <tr>
                 <td>Профилактический массаж</td>
               </tr>
-              </tr>
               <tr>
                 <td>ЛФК динамическая гимнастика</td>
               </tr>
@@ -153,7 +152,7 @@
         </div>
        </section>
       </div>
-    </div>                                                     
+    </div>
   </div>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -174,7 +173,7 @@
     <div class="section">
       <div class="row" id="item-3">
       <h5 class="center">Отзывы</h5>
-      <div class="col l4 m6 s12 ">
+      <div class="col l4 m4 s12 ">
           <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="//materializecss.com/images/office.jpg">
@@ -188,7 +187,7 @@
               </div>
           </div>
       </div>
-          <div class="col l4 m6 s12 ">
+          <div class="col l4 m4 s12 ">
               <div class="card">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="//materializecss.com/images/office.jpg">
@@ -202,7 +201,7 @@
                   </div>
               </div>
           </div>
-          <div class="col l4 m6 s12 ">
+          <div class="col l4 m4 s12 ">
               <div class="card">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="//materializecss.com/images/office.jpg">
@@ -221,7 +220,6 @@
 
       </div>
     </div>
-  </div>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -239,40 +237,29 @@
 <footer class="page-footer deep-purple">
     <div class="container">
       <div class="row">
-        <p class="col s12 m6 l6" >
+        <div class="col s12 m6 l6">
             <h5>Контакты</h5>
-            <p> Тел. 099 323 80 99 (звонки, Viber)</p>
+              <p>Тел. 099 323 80 99 (звонки, Viber)</p>
               <p>E-mail: ohmatdet.ko@gmail.com</p>
               <p>г. Ирпень, также возможен выезд в Киев,
               <p>Бучу, Гостомель, Ворзель и Немешаево.</p>
         </div>
-
-
 <!-- map -->
-        <!--
-                <div class="col hide-on-small-only m4 l4">
-                        <div>
-                          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                           <div id="google_Map"></div>
-                            <div id='gmap_canvas'></div>
-                           </div>
-                            <script>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(50.51875,30.23978299999999),
-                            mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'),
-                            myOptions); marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.51875,30.23978299999999)});
-                            nfowindow = new google.maps.InfoWindow({content:'<strong>massage-baby.com.ua</strong><br>Ирпень<br>'});
-                            google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
-                            infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-                            </script
-                      </div>
-                    </div>
-            -->
+        <div class="col hide-on-small-only m6 l6">
+            <div>
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                <div id="google_Map">
+                    <div id='gmap_canvas'></div>
+                </div>
+            </div>
+        </div>
 <!-- End of map -->
         </div>
       </div>
     </div>
     <div class="footer-copyright" id="web4evo">
       <div class="container">
-          <p class="center-align text-center"><a href="//web4evo.com" target="_blank">© 2016 All Rights Reserved. Made by
+          <p class="center-align text-center"><a href="//web4evo.com" target="_blank">© 2016 Made by
               <span >Web<span>4</span>evo.</span></a>
           </p>
       </div>
@@ -280,7 +267,8 @@
   </footer>
   <!-- Footer finish -->
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large deep-purple accent-4"><i class="material-icons" title='Social networks'>add</i>
+        <a class="btn-floating btn-large deep-purple accent-4">
+            <i class="material-icons" title='Social networks'>add</i>
         </a>
          <ul>
           <li>
@@ -306,9 +294,10 @@
     <script src="bower_components/Materialize/bin/materialize.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js js/main.min.js -->
     <script src="js/main.js"></script>
+    <script src="js/google-map.js"></script>
     <!-- endbuild -->
 
 </body>
