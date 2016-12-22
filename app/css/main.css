@@ -1,27 +1,50 @@
-nav ul a, nav .brand-logo {
-  color: #444444;
-  height: 80%; }
-
-h1 {
-  font-size: 40px; }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
 
 p {
-  line-height: 2rem; }
+  line-height: 2rem;
+  color: #494949; }
 
-#mainSign {
-  padding-top: 90px; }
+nav {
+  background-color: #7E57C2; }
+
+nav ul a, nav .brand-logo {
+  color: #fafafa; }
+
+.logotype {
+  width: 70%; }
+
+h1 {
+  font-size: 40px;
+  color: #7E57C2;
+  padding-top: 90px;
+  text-align: center; }
 
 .button-collapse {
-  color: #60D813; }
+  color: #5FD612; }
 
 .parallax-container {
   min-height: 380px;
-  line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9); }
+  color: #ffffff; }
+
+.item-1 {
+  margin: 0;
+  padding: 0; }
 
 .parallax-container .section {
   width: 100%; }
+
+.card-panel {
+  margin-bottom: 40px; }
+  .card-panel img {
+    margin-top: 20px; }
+
+#item-1 .col.l4, #item-1 .col.m4 {
+  width: 30%;
+  margin: 0 1.667%; }
 
 .icon-block {
   padding: 0 15px; }
@@ -30,14 +53,38 @@ p {
   font-size: inherit;
   color: #60D813; }
 
+#item-3 p:nth-child(1) {
+  text-align: center;
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: .82rem 0 40px 0;
+  font-weight: 500; }
+
+div.card-content span.activator {
+  color: #0a0a0a;
+  font-size: 20px;
+  font-weight: 200; }
+
 footer.page-footer {
-  margin: 0; }
+  margin: 0;
+  background-color: #7E57C2; }
+  footer.page-footer p:nth-child(1) {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: .82rem 0 .656rem 0;
+    font-weight: 500; }
+  footer.page-footer p {
+    color: #0a0a0a; }
 
-.item-1 {
-  margin: 0; }
-
-.logotype {
-  width: 70%; }
+#web4evo {
+  text-align: center; }
+  #web4evo a {
+    font-weight: 400;
+    color: #0a0a0a; }
+  #web4evo span {
+    color: #d1d1d1; }
+  #web4evo span span {
+    color: #ff0000; }
 
 .animated {
   -webkit-animation-duration: 1.5s;
@@ -74,6 +121,21 @@ footer.page-footer {
 div > .btn {
   margin-left: 15px; }
 
+div.fixed-action-btn a[class*="btn-large"] {
+  background-color: #7E57C2; }
+
+div.fixed-action-btn a[href*="#menu"] {
+  background-color: #FFEB3B; }
+
+div.fixed-action-btn a[title*='LinkedIn'] {
+  background-color: #F44336; }
+
+div.fixed-action-btn a[title*='Twitter'] {
+  background-color: #2196F3; }
+
+div.fixed-action-btn a[title*='Facebook'] {
+  background-color: #3f51b5; }
+
 @keyframes zoomIn {
   0% {
     opacity: .5;
@@ -93,13 +155,3 @@ div > .btn {
     opacity: .8; }
   100% {
     opacity: 1; } }
-
-#web4evo div.container a {
-  font-weight: 400;
-  color: #000000; }
-
-#web4evo div.container span {
-  color: #d1d1d1; }
-
-#web4evo div.container span span {
-  color: #ff0000; }

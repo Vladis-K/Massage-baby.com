@@ -1,27 +1,57 @@
+$text-color: #fafafa
+$text-dark: #494949
+$add-color: #5FD612
+$main-color: #7E57C2
+$icon-color: #FFEB3B
+
+body
+  font-family: Helvetica, Arial, sans-serif
+  margin: 0
+  padding: 0
+
+p
+  line-height: 2rem
+  color: $text-dark
+
+//Navbar
+nav
+  background-color: $main-color
+
 nav ul a, nav .brand-logo
-  color: #444444
-  height: 80%
+  color: $text-color
+
+.logotype
+  width: 70%
 
 h1
   font-size: 40px
-
-p 
-  line-height: 2rem
-
-#mainSign
+  color: $main-color
   padding-top: 90px
+  text-align: center
 
 .button-collapse
-  color: #60D813
+  color: $add-color
 
 .parallax-container 
   min-height: 380px
-  line-height: 0
   height: auto
-  color: rgba(255,255,255,.9)
+  color: #ffffff
+
+.item-1
+  margin: 0
+  padding: 0
 
 .parallax-container .section
   width: 100%
+
+.card-panel
+  margin-bottom: 40px
+  img
+    margin-top: 20px
+
+#item-1 .col.l4,#item-1 .col.m4
+  width: 30%
+  margin: 0 1.667%
 
 .icon-block 
   padding: 0 15px
@@ -30,14 +60,44 @@ p
   font-size: inherit
   color: #60D813
 
+//RESPONDS
+
+#item-3  p:nth-child(1)
+  text-align: center
+  font-size: 1.64rem
+  line-height: 110%
+  margin: .82rem 0 40px 0
+  font-weight: 500
+
+div.card-content span.activator
+  color: #0a0a0a
+  font-size: 20px
+  font-weight: 200
+
+
+//FOOTER
 footer.page-footer
   margin: 0
+  background-color: $main-color
+  p:nth-child(1)
+    font-size: 1.64rem
+    line-height: 110%
+    margin: .82rem 0 .656rem 0
+    font-weight: 500
+  p
+    color: #0a0a0a
 
-.item-1
-  margin: 0
 
-.logotype
-  width: 70%
+#web4evo
+  text-align: center
+  a
+    font-weight: 400
+    color: #0a0a0a
+  span
+    color: rgb(209, 209, 209)
+  span  span
+    color: #ff0000
+
 
 .animated
   animation-duration: 1.5s
@@ -72,6 +132,18 @@ footer.page-footer
 div>.btn
   margin-left: 15px
 
+//Buttons
+div.fixed-action-btn
+  a[class*="btn-large"]
+    background-color: #7E57C2
+  a[href*="#menu"]
+    background-color: $icon-color
+  a[title*='LinkedIn']
+    background-color: #F44336
+  a[title*='Twitter']
+    background-color: #2196F3
+  a[title*='Facebook']
+    background-color: #3f51b5
 
 @keyframes zoomIn 
   0%
@@ -90,12 +162,3 @@ div>.btn
     opacity: .8
   100%
     opacity: 1
-
-#web4evo div.container
-  a
-    font-weight: 400
-    color: #000000
-  span
-    color: rgb(209, 209, 209)
-  span  span
-    color: #ff0000

@@ -3,15 +3,11 @@
     font-size: 30px; }
   nav .brand-logo {
     height: 90%;
-    margin-top: 3%; } }
+    margin-top: 3%; }
+  #item-1 .col.s12 {
+    width: 96%; } }
 
-@media only screen and (min-width: 321px) and (max-width: 767px) {
-  #index-banner .section {
-    top: 0; } }
-
-@media only screen and (min-width: 1200px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%; }
-  #index-banner .section {
-    top: 10%; } }
+@media only screen and (min-width: 321px) and (max-width: 599px) {
+  #item-1 .col.s12 {
+    width: 100%;
+    margin-bottom: 40px; } }

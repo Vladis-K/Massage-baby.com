@@ -2,10 +2,37 @@ $(document).ready(function(){
 
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
-    
-    // Animation of top phrase
-    
 
+
+// Sharer
+    $('#facebook').on('click', function (purl, ptitle, pimg, text) {
+        var url = 'http://www.facebook.com/sharer.php?s=100';
+        url += '&p[title]=' + encodeURIComponent('Детский массаж.');
+        url += '&p[summary]=' + encodeURIComponent('Массаж для грудничков и деток.');
+        url += '&p[url]=' + encodeURIComponent('http://massage-baby.com.ua');
+        url += '&p[images][0]=' + encodeURIComponent('http://massage-baby.com.ua/img/background2.jpg');
+        popup(url);
+
+    });
+
+    $('#twitter').on('click', function(purl, ptitle) {
+        var url  = 'http://twitter.com/share?';
+        url += 'text='      + encodeURIComponent(ptitle);
+        url += '&url='      + encodeURIComponent(purl);
+        url += '&counturl=' + encodeURIComponent(purl);
+        popup(url);
+    });
+
+    function popup(url,soc) {
+        window.open(url,'','toolbar=0,status=0,width=626,height=436');
+        $.get('', {
+                social:soc,
+                page:url},
+            function (data){}
+        );
+    }
+
+    // Smooth scroll
         $("#menu").on("click","a", function (event) {
             event.preventDefault();
             var id  = $(this).attr('href'),
@@ -15,7 +42,7 @@ $(document).ready(function(){
             }, 2000);
           });
 
-// Smooth scroll
+    // Animation of top phrase
         $("#back-top").hide();
            $(function () {
            $(window).scroll(function () {
@@ -40,3 +67,5 @@ function mainSign() {
     var appear = document.getElementById("mainSign");
     appear.className += " animated zoomIn";
 };
+
+
