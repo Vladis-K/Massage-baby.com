@@ -29,8 +29,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="191" column="12" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="12" />
+                <state relative-caret-position="153">
+                  <caret line="227" column="81" selection-start-line="227" selection-start-column="81" selection-end-line="227" selection-end-column="81" />
                   <folding />
                 </state>
               </provider>
@@ -239,7 +239,7 @@
       <workItem from="1482056929193" duration="1415000" />
       <workItem from="1482145091280" duration="15805000" />
       <workItem from="1482172964654" duration="594000" />
-      <workItem from="1482398489407" duration="23654000" />
+      <workItem from="1482398489407" duration="23717000" />
     </task>
     <task id="LOCAL-00001" summary="remake">
       <created>1481973217968</created>
@@ -276,11 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482422387130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="optimization">
+      <created>1482422450693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1482422450693</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53269000" />
+    <option name="totallyTimeSpent" value="53332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="191" column="12" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="227" column="81" selection-start-line="227" selection-start-column="81" selection-end-line="227" selection-end-column="81" />
           <folding />
         </state>
       </provider>
