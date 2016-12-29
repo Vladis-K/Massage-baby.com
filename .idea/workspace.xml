@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7804ddb-b02d-4d90-96fa-dfdbb69e5e76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/en.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ru.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/ru.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/en.html" afterPath="$PROJECT_DIR$/app/en.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/google-map.js" afterPath="$PROJECT_DIR$/app/js/google-map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path="Massage-baby.com.iws" />
@@ -28,14 +28,14 @@
     <favorites_list name="Massage-baby.com" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41611233">
+    <splitter split-orientation="horizontal" split-proportion="0.53521127">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ru.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/ru.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="161">
+                  <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -45,11 +45,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+                <state relative-caret-position="425">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -58,18 +58,18 @@
           <file leaf-file-name="media.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="607">
+                <state relative-caret-position="442">
                   <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+                <state relative-caret-position="-149">
+                  <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="41" />
                   <folding>
                     <marker date="1483012225320" expanded="true" signature="1025:1377" ph="..." />
                     <marker date="1483012225320" expanded="true" signature="1084:1133" ph="..." />
@@ -81,8 +81,8 @@
           <file leaf-file-name="en.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/en.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -113,12 +113,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/css/media.css" />
-        <option value="$PROJECT_DIR$/app/js/google-map.js" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/sass/media.sass" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/index_en.html" />
+        <option value="$PROJECT_DIR$/app/ru.html" />
+        <option value="$PROJECT_DIR$/app/js/google-map.js" />
+        <option value="$PROJECT_DIR$/app/en.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -138,7 +140,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
-    <option name="width" value="1365" />
+    <option name="width" value="1361" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -271,7 +273,7 @@
       <workItem from="1482848740163" duration="599000" />
       <workItem from="1482912355077" duration="13755000" />
       <workItem from="1482927241434" duration="1863000" />
-      <workItem from="1483006684959" duration="8289000" />
+      <workItem from="1483006684959" duration="10783000" />
     </task>
     <task id="LOCAL-00001" summary="remake">
       <created>1481973217968</created>
@@ -322,14 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1482422514387</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added_english_version">
+      <created>1483019285318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483019285318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92295000" />
+    <option name="totallyTimeSpent" value="94789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1365" height="728" extended-state="0" />
+    <frame x="-7" y="2" width="1361" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -369,7 +378,8 @@
     <MESSAGE value="added_responsd" />
     <MESSAGE value="fixed_some_bugs_and_improvements" />
     <MESSAGE value="optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimization" />
+    <MESSAGE value="added_english_version" />
+    <option name="LAST_COMMIT_MESSAGE" value="added_english_version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,41 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/google-map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,30 +744,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ru.html">
+    <entry file="file://$PROJECT_DIR$/app/js/google-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="-149">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="41" />
           <folding>
             <marker date="1483012225320" expanded="true" signature="1025:1377" ph="..." />
             <marker date="1483012225320" expanded="true" signature="1084:1133" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

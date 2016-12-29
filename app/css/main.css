@@ -10,8 +10,15 @@ p {
 nav {
   background-color: #7E57C2; }
 
-nav ul a, nav .brand-logo {
+nav ul a:not(.intro), nav .brand-logo {
   color: #fafafa; }
+
+nav ul a.intro {
+  display: block; }
+
+nav ul a.intro:hover {
+  background-color: #905bd8;
+  color: #494949; }
 
 .logotype {
   width: 70%; }
