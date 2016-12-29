@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-        $('.button-collapse').sideNav();
-        $('.parallax').parallax();
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax();
 
 
 // Sharer
@@ -15,48 +15,56 @@ $(document).ready(function(){
 
     });
 
-    $('#twitter').on('click', function(purl, ptitle) {
-        var url  = 'http://twitter.com/share?';
-        url += 'text='      + encodeURIComponent(ptitle);
-        url += '&url='      + encodeURIComponent(purl);
+    $('#twitter').on('click', function (purl, ptitle) {
+        var url = 'http://twitter.com/share?';
+        url += 'text=' + encodeURIComponent(ptitle);
+        url += '&url=' + encodeURIComponent(purl);
         url += '&counturl=' + encodeURIComponent(purl);
         popup(url);
     });
 
-    function popup(url,soc) {
-        window.open(url,'','toolbar=0,status=0,width=626,height=436');
-        $.get('', {
-                social:soc,
-                page:url},
-            function (data){}
-        );
+    function popup(url) {
+        window.open(url, '', 'toolbar=0,status=0,width=626,height=436');
     }
 
-    // Smooth scroll
-        $("#menu").on("click","a", function (event) {
-            event.preventDefault();
-            var id  = $(this).attr('href'),
-              top = $(id).offset().top;
-            $('body, html').animate({
-              scrollTop: top
-            }, 2000);
-          });
+    //Scroll JS
+    //   var links = document.querySelectorAll('#menu a');
+       // var  p = links[1].getAttribute('href');
 
+        // links.onclick = function (elmt, e) {
+        //     e.preventDefault();
+        //     var id = this.getAttribute("href");
+        //     var top = id.offsetTop;
+        //     console.log(top);
+        //
+        //
+        //  };
+
+
+    $("#menu").on("click", "a:not(.intro)", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            point = $(id).offset().top;
+        $('body, html').animate({
+            scrollTop: point
+        }, 2000);
+    });
+    
     // Animation of top phrase
-        $("#back-top").hide();
-           $(function () {
-           $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
-           $('#back-top').fadeIn();
-           } else {
-           $('#back-top').fadeOut();
-           }
-           });
-           $('#back-top a').click(function (){
-           $('body,html').animate({
-           scrollTop: 0
-           }, 1400);
-           return false;
+    $("#back-top").hide();
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 1400);
+            return false;
         });
     });
 

@@ -62,8 +62,11 @@ h1 {
 
 div.card-content span.activator {
   color: #0a0a0a;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200; }
+
+.card-content i.material-icons {
+  margin-top: 12px; }
 
 footer.page-footer {
   margin: 0;
@@ -95,9 +98,6 @@ footer.page-footer {
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
-
-.card-content i.material-icons {
-  margin-top: 12px; }
 
 #gmap_canvas, #google_Map {
   height: 230px;
